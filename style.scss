@@ -6,6 +6,7 @@ body {margin: 0;}
 
 .container {
     font-family: $font;
+    padding-left: 5%;
 }
 
 h1 {
@@ -14,6 +15,11 @@ h1 {
 }
 
 p {
+    font-size: 2rem;
+    color: #F0F4EF;
+}
+
+li {
     font-size: 2rem;
     color: #F0F4EF;
 }
