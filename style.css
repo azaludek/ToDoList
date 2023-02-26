@@ -28,8 +28,17 @@ p {
 }
 
 li {
+  list-style: none;
   font-size: 2rem;
-  color: #F0F4EF;
+  color: #181823;
+  border: 3px solid #181823;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 10px;
 }
 
 button {
@@ -41,7 +50,7 @@ button {
   font-weight: 600;
   border-radius: 10px;
   padding: 13px 23px;
-  margin-top: 3%;
+  margin-top: 1%;
   border: 3px solid #181823;
   background-color: #181823;
   color: white;
@@ -69,4 +78,12 @@ button:hover {
   border: 2px solid rgb(124, 138, 255);
 }
 
-/*# sourceMappingURL=style.css.map */
+input[type=checkbox] {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  margin-right: 8px;
+  vertical-align: middle;
+}
